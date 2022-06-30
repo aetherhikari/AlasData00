@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+:root {
+  --dark-blue: rgba($color: #ca86ca, $alpha: 1.0);
+}
+
+body {
+  background-color: var(--dark-blue);
+}/*# sourceMappingURL=styles.css.map */
