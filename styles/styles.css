@@ -2,6 +2,24 @@
   --dark-blue: rgba($color: #ca86ca, $alpha: 1.0);
 }
 
+html {
+  display: flex;
+}
+
 body {
   background-color: var(--dark-blue);
+  font-family: "Roboto Mono";
+}
+
+.nav-title {
+  background-color: #ca86ca;
+  border-style: inherit;
+  border-color: black;
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  display: block;
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
