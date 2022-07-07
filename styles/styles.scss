@@ -1,7 +1,23 @@
 :root {
+    /*primary color*/
     --dark-blue: rgba($color: #ca86ca, $alpha: 1.0);
-
+    /*fonts*/
+    --font-family: 'Roboto Mono', sans-serif;
 }
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
-    background-color: var(--dark-blue)
+    background-color: var(--dark-blue);
+    font-family: var(--font-family);
+}
+.nav {
+    
 }
