@@ -14,7 +14,28 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  display: flex;
+}
+
 body {
   background-color: var(--dark-blue);
+<<<<<<< HEAD
   font-family: var(--font-family);
+=======
+  font-family: "Roboto Mono";
+}
+
+.nav-title {
+  background-color: #ca86ca;
+  border-style: inherit;
+  border-color: black;
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  display: block;
+  text-decoration: none;
+>>>>>>> 4e7a26e5751f65c2f57eb660da513a38ca249c05
 }/*# sourceMappingURL=styles.css.map */
