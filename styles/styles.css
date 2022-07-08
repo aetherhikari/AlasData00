@@ -1,11 +1,16 @@
 :root {
+  /*primary color*/
   --dark-blue: rgba($color: #ca86ca, $alpha: 1.0);
+  /*fonts*/
+  --font-family: "Roboto Mono", sans-serif;
 }
 
 html {
-  display: flex;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
+<<<<<<< HEAD
 body {
   background-color: var(--dark-blue);
   font-family: "Roboto Mono", sans-serif;
@@ -74,4 +79,13 @@ body {
   border: 2px solid #000;
   border-radius: 10px;
   min-width: 100%;
+=======
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--dark-blue);
+  font-family: var(--font-family);
+>>>>>>> d4bcf229d6a2af9231d1237207895b468e1ff4fa
 }/*# sourceMappingURL=styles.css.map */
