@@ -8,18 +8,70 @@ html {
 
 body {
   background-color: var(--dark-blue);
-  font-family: "Roboto Mono";
+  font-family: "Roboto Mono", sans-serif;
 }
 
+.nav {
+  display: flex;
+  background-color: #6e536e;
+  padding: 0.5rem;
+  font-size: 16px;
+}
 .nav-title {
-  background-color: #ca86ca;
+  list-style: none;
+  display: flex;
   border-style: inherit;
   border-color: black;
-  display: flex;
+  margin: 0;
+  padding: 0;
 }
-
 .nav-list {
   list-style: none;
   display: block;
+  flex-grow: inherit;
   text-decoration: none;
+  color: #000;
+  padding-left: 3rem;
+}
+.nav-list-1 {
+  list-style: none;
+  display: block;
+  flex-grow: 4;
+  text-decoration: none;
+  color: #000;
+  padding-left: 65.19rem;
+  padding-top: 1rem;
+}
+.nav-dropdown {
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.nav-dropdown-menu {
+  display: none;
+}
+.nav-dropdown-item {
+  display: block;
+  text-decoration: none;
+  color: #222;
+  padding: 0.5rem;
+}
+.nav-dropdown:after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+}
+.nav-dropdown:hover .nav-dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ca86ca;
+  padding: 0.5rem 0;
+  border: 2px solid #000;
+  border-radius: 10px;
+  min-width: 100%;
 }/*# sourceMappingURL=styles.css.map */
